@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TAMBAH VIDEO</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+	<nav class="navbar navbar-default">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	      <a class="navbar-brand" href="#">Streaming Video</a>
+	    </div>
+	    <ul class="nav navbar-nav">
+	      <li class="active"><a href="admin_list.php">List Video</a></li>
+	      <li><a href="add.html">Tambah Video</a></li>	      
+	    </ul>
+	  </div>
+	</nav>
+
+	<form action="add.php" method="post" name="form1">
+		<table width="25%" border="0">
+			<tr> 
+				<td>Judul</td>
+				<td><input type="text" name="judul"></td>
+			</tr>
+			<tr> 
+				<td>Deskripsi</td>
+				<td><input type="text" name="deskripsi"></td>
+			</tr>
+			<tr> 
+				<td>Sampul</td>
+				<td><input type="text" name="sampul"></td>
+			</tr>
+			<tr> 
+				<td>Url</td>
+				<td><input type="text" name="url"></td>
+			</tr>
+			<tr> 
+				<td></td>
+				<td><input type="submit" name="Submit" value="Add"></td>
+			</tr>
+		</table>
+	</form>
+
+</body>
+</html>
